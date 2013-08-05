@@ -2,7 +2,7 @@
 
 
 def insert_line_additions(line)
-	return line[0..14] + "0000" + line[15..line.length]
+	return line[0..13] + "0000" + line[14..line.length]
 end
 
 def reconstruct_data_file(data,filename,cube)
